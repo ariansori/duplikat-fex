@@ -1,0 +1,232 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: black;
+    width: 100%;
+}
+
+.logox{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.menu-header {
+    position: fixed;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    height: 100vh;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 45px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    color: white;
+}
+
+.menu a:hover{
+    background-color: rgb(101, 101, 101);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 20px;
+}
+
+.menu img{
+    margin-right: 20px;
+}
+
+.beranda-menu{
+    display: flex;
+    background-color: black;
+    text-align: left;
+}
+
+.jelajahi-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.notif-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.pesan-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.daftar-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.markah-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.komunitas-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.premium-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.profil-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.lainnya-menu{
+    background-color: black;
+    text-align: left;
+}
+
+.post-menu{
+    margin-top: 20px;
+    background-color: rgb(40, 162, 232);
+    text-align: center;
+    justify-content: center;
+}
+
+.akun{
+    width: 100%;
+    height: 50px;
+    margin-top: 70px;
+    background-color: transparent;
+    display: flex;
+    color: white;
+    font-family: 'Lucida Sans';
+    align-items: center;
+    justify-content: left;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.akun-id{
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 30px;
+}
+
+.akun p{
+    font-size: 10px;
+    font-weight: normal;
+}
+
+/* konten utama */
+.content-utama{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 40%;
+    margin-left: 25%;
+    border-left: 2px solid#1b1e23;
+    border-right: 2px solid#1b1e23;
+}
+
+.notifikasi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.konten-notif{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 2px solid#1b1e23;
+}
+
+.post-notif{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    border-bottom: 2px solid#1b1e23;
+}
+
+.post-notif img{
+    margin-right: 20px;
+}
+
+/* header kanan */
+.header-kanan{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    align-items: center;
+    background-color: black;
+    height: 100vh;
+    width: 23%;
+    margin-right: 10%;
+    margin-left: 10px;
+}
+
+.cari{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    height: 45px;
+    width: 100%;
+    background-color: #1b1e23;    
+}
+.cari input[type="text"] {
+    background-color: transparent;
+    font-family: 'Lucida Sans';
+    border: none;
+    color: white;
+    width: 250px;
+}
+
+.cari-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 18px;
+    width: 18px;
+}
+
+.konten-tren{
+    height: 1000px;
+    width: 100%;
+    background-color: #1b1e23;
+    margin-top: 10px;
+    border-radius: 15px;
+    font-family: 'Lucida Sans';
+    padding: 13px 13px 13px 13px;
+}

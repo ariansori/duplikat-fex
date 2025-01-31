@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LogoX{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.Logo-X{
+    display: flex;
+    justify-content: left;
+    margin-left: 150px;
+    width: 65%;
+}
+
+.container-login{
+    width: 720px;
+    justify-content: left;
+    align-items: center;
+    background-color: black
+}
+.h2-login{
+    margin-top: 50px;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 60px;
+}
+
+.h1-login{
+    color: white;
+    font-family: 'Lucida Sans';
+    font-size: 30px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+} 
+.options a {
+    width: 40%;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: 'Lucida Sans';
+    margin-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-daftar {
+    background-color: white;
+    color: black;
+}
+.apple-daftar {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.options p{
+    color: white;
+    text-align: left;
+}
+.buat-akun {
+    background-color: rgb(40, 162, 232);
+    color: white;
+}
+
+.h-login{
+    color: white;
+    font-size: 18px;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+    text-align: left;
+}
+
+.masuk{
+    background-color: black;
+    border: 1px solid white;
+    color: rgb(40, 162, 232);
+    font-weight: bold;
+    text-align: center;
+}
