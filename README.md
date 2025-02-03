@@ -1,1 +1,1 @@
-Latihan HTML dan CSS juga Bootstrap membuat duplikat aplikasi X
+Proyek Individu mata kuliah Pemrograman Web. Proyek ini adalah duplikat Front End dari aplikasi X yang dibuat dengan menggunakan HTML,CSS dan Bootstrap. Proyek ini masih sedehana blum kompleks sehingga perlu perkembangan lebih lanjut. Proyek ini juga salah satu yang berperan dalam mendukung proses belajar saya dalam dunia web development dengan menggunakan HTML dan CSS juga Bootstrap.
